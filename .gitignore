@@ -1,0 +1,16 @@
+# Backups
+*.backup
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Fichiers sensibles (décommenter si nécessaire)
+# claude/settings.local.json
+# claude/memory/
+
+# Node modules (si Lyd était inclus)
+node_modules/

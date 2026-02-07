@@ -1,0 +1,17 @@
+{
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /Users/danny/.claude/hooks/bash-guard.js"
+          }
+        ]
+      }
+    ]
+  },
+  "model": "sonnet"
+}
