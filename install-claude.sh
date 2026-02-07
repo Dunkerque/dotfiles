@@ -14,6 +14,7 @@ echo "🚀 Installation de la configuration Claude Code..."
 # Créer les répertoires nécessaires
 echo "📁 Création des répertoires..."
 mkdir -p "$CLAUDE_DIR/commands"
+mkdir -p "$CLAUDE_DIR/hooks"
 mkdir -p "$CLAUDE_MEMORY_DIR"
 
 # Fonction de backup
@@ -58,6 +59,20 @@ for memory_file in "$SCRIPT_DIR/claude/memory"/*.md; do
     echo "   ✅ $memory_name"
 done
 
+# Copier les hooks
+echo "🔒 Installation des hooks..."
+if [ -d "$SCRIPT_DIR/claude/hooks" ]; then
+    for hook in "$SCRIPT_DIR/claude/hooks"/*.js; do
+        if [ -f "$hook" ]; then
+            hook_name=$(basename "$hook")
+            backup_if_exists "$CLAUDE_DIR/hooks/$hook_name"
+            cp "$hook" "$CLAUDE_DIR/hooks/"
+            chmod +x "$CLAUDE_DIR/hooks/$hook_name"
+            echo "   ✅ $hook_name"
+        fi
+    done
+fi
+
 echo ""
 echo "✨ Installation terminée !"
 echo ""
@@ -66,6 +81,9 @@ echo "   - CLAUDE.md global"
 echo "   - Settings"
 echo "   - $(ls "$SCRIPT_DIR/claude/commands" | wc -l | tr -d ' ') skills"
 echo "   - $(ls "$SCRIPT_DIR/claude/memory" | wc -l | tr -d ' ') fichiers de mémoire"
+if [ -d "$SCRIPT_DIR/claude/hooks" ]; then
+    echo "   - $(ls "$SCRIPT_DIR/claude/hooks" 2>/dev/null | wc -l | tr -d ' ') hooks"
+fi
 echo ""
 echo "ℹ️  Les anciens fichiers ont été sauvegardés en .backup"
 echo ""
