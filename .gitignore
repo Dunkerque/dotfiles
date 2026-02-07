@@ -8,6 +8,9 @@
 .DS_Store
 Thumbs.db
 
+# Scripts internes (usage local uniquement)
+sync-claude.sh
+
 # Fichiers sensibles (décommenter si nécessaire)
 # claude/settings.local.json
 # claude/memory/
