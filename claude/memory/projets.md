@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés autour d'une vision unifiée : **Renaissance**, une plateforme de transformation holistique. Chaque projet est une brique indépendante qui s'intègre dans un écosystème global.
+Portfolio de 14 projets créés entre Février 2025 et Février 2026, organisés autour d'une vision unifiée : **Renaissance**, une plateforme de transformation holistique. Chaque projet est une brique indépendante qui s'intègre dans un écosystème global.
 
 **Contexte de création** : Période de transformation personnelle (Juillet 2024 - Janvier 2025) via rituel quotidien intensif (méditation, Ho'oponopono, affirmations, visualisation). Les projets émergent par **vision spontanée** suivie d'exécution rapide avec IA comme extension cognitive.
 
@@ -15,7 +15,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 ### 🎯 Productivité & Méthodologie
 
 #### Focus Flow
-- **Date** : Février 2024
+- **Date** : Février 2025
 - **Temps de création** : 15 minutes
 - **Technologies** : Méthodologie (Pomodoro augmenté)
 - **Objectif** : Productivité humanisée avec pause créative et dimension humaine
@@ -24,7 +24,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Module productivité de l'écosystème
 
 #### Why Vivant
-- **Date** : Février 2024
+- **Date** : Février 2025
 - **Temps de création** : 10 minutes
 - **Technologies** : Rituel d'alignement vocal
 - **Objectif** : Rituel d'alignement quotidien incarné
@@ -38,7 +38,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 ### 📝 Copywriting & Content
 
 #### Textes Spontanés (x3)
-- **Date** : Février 2024
+- **Date** : Février 2025
 - **Temps de création** : 2-3 minutes chacun
 - **Technologies** : IA + Prompt Master
 - **Objectif** : Capture instantanée d'insights et transformation en contenu
@@ -47,7 +47,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Fondation du système de création de contenu
 
 #### DPL (Page de vente / Landing page)
-- **Date** : Février 2024
+- **Date** : Février 2025
 - **Temps de création** : 10 minutes
 - **Technologies** : Framework copywriting propriétaire
 - **Objectif** : Framework personnel unique pour création de pages de vente
@@ -57,7 +57,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Module copywriting de l'écosystème
 
 #### PDSTI (Framework LinkedIn)
-- **Date** : Février 2024
+- **Date** : Février 2025
 - **Temps de création** : 10 minutes
 - **Technologies** : Framework storytelling séquentiel
 - **Objectif** : Transformer expérience/idée en série narrative LinkedIn
@@ -72,7 +72,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Cœur de la stratégie Build in Public
 
 #### Content AI Generator
-- **Date** : Décembre 2024
+- **Date** : Décembre 2025
 - **Technologies** : IA Agent + Telegram + API automation
 - **Objectif** : Créer automatiquement du contenu depuis Telegram (vocal/texte) vers réseaux sociaux
 - **État** : Vision capturée, à développer
@@ -85,7 +85,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 ### 🤖 IA & Automation
 
 #### Prompt Master
-- **Date** : Juillet 2024
+- **Date** : Juillet 2025
 - **Temps de création** : 2 semaines d'introspection avec IA
 - **Technologies** : Prompt engineering + cartographie profil Generator 1/3
 - **Objectif** : IA qui devient extension cognitive conservant ADN unique utilisateur
@@ -100,7 +100,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Cœur du système IA, garantit cohérence ADN à travers tous les modules
 
 #### DNA Checker (concept)
-- **Date** : Juillet 2024 (vision)
+- **Date** : Juillet 2025 (vision)
 - **Technologies** : IA adaptive + questionnaire intelligent
 - **Objectif** : Scanner ADN mental en 15-20 questions adaptatives
 - **État** : Concept, à développer
@@ -112,7 +112,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 ### 🏗️ Frameworks & Infrastructure
 
 #### Incubateur Systémique
-- **Date** : Juillet 2024
+- **Date** : Juillet 2025
 - **Temps de création** : 3-4 jours + framework JS
 - **Technologies** : JavaScript, connecteurs API réseaux sociaux
 - **Objectif** : Système de publication multi-plateformes automatisé
@@ -124,7 +124,7 @@ Portfolio de 13 projets créés entre Février 2024 et Février 2026, organisés
 - **Lien Renaissance** : Infrastructure de distribution de contenu, organe "Connecteurs Réseaux Sociaux"
 
 #### Framework JS (nom générique)
-- **Date** : Juillet 2024
+- **Date** : Juillet 2025
 - **Temps de création** : 3-4 jours
 - **Technologies** : JavaScript vanilla
 - **Objectif** : Foundation technique réutilisable pour projets
@@ -204,10 +204,60 @@ node scripts/db-cli.js get-dashboard  # État complet
 
 ---
 
+### 🎬 Création de Contenu & Vidéo
+
+#### YouTube Factory — Production Dashboard
+- **Date** : Février 2026
+- **Temps de création** : 1 session (vision → build en quelques heures)
+- **Technologies** : Vanilla JS, Python (SimpleHTTPRequestHandler), HTML5 video, localStorage, CSS Grid
+- **Objectif** : Dashboard de production vidéo AI-assistée pour créer des documentaires YouTube de A à Z
+- **État** : Complet, opérationnel, utilisé en production active
+- **Localisation** : `/Users/danny/Sites/business/youtube-factory/`
+
+**Architecture :**
+- **Serveur** : Python HTTP server servi depuis la racine (accès multi-thèmes)
+- **App centrale** : `app/` (index.html + app.js + styles.css)
+- **Thèmes** : Dossiers indépendants par vidéo (`theme1 - insecte/`, `theme2 - libellule/`)
+- **Registre** : `themes.json` (registre des projets vidéo)
+- **Persistance** : localStorage (settings + scènes éditées par thème)
+
+**Features :**
+- Multi-thème : switcher dynamique entre projets vidéo (chaque thème = une vidéo)
+- Import conversation Claude.ai : détection automatique du JSON de scènes dans l'export
+- Template de prompt Claude : template copier-coller pour générer les données de scènes
+- Import JSON direct : chargement de `scenes_data.json` personnalisé
+- Onglet Scènes : grille de toutes les scènes avec statut (missing/in_progress/done)
+- Modal détail scène : accordéons (Script FR/EN, Voix-off FR/EN, Images + prompts Midjourney)
+- Édition inline des prompts Midjourney avec sauvegarde localStorage
+- Copie directe des prompts avec feedback visuel
+- Onglet Assets : vue de tous les assets disponibles
+- Onglet Timeline : vue chronologique du documentaire
+- Onglet Montage : prévisualisation vidéo par scène + montage complet séquentiel (playlist auto-avance)
+- Onglet Paramètres : configuration des chemins de dossiers par thème (vidéos, images, voix-off, musique)
+- Header avec stats live (progression %, scènes complètes, durée totale)
+- Barre de progression globale
+
+**Process de création :**
+- Vision spontanée (dossier Mega chaos → organized dashboard)
+- "J'ai vu directement" — architecture mentalisée avant d'ouvrir l'éditeur
+- Itérations rapides par feedback (bug accordion → fix CSS Grid, bug vidéo cache, etc.)
+- Collaboration avec Claude Code pour matérialisation
+
+**Différenciation :**
+- Workflow complet AI-to-YouTube : Claude génère le script → import → dashboard → montage
+- Pas de framework JS (vanilla intentionnel — zéro dépendance, portable)
+- Architecture multi-projet (1 app, N vidéos) via système de thèmes
+- Inline editing avec persistance locale (pas de serveur de sauvegarde requis)
+- Montage preview intégré : voir le film assemblé sans logiciel de montage
+
+**Lien Renaissance** : Organe "Video Generation" de l'architecture organique Pipeline Renaissance — proof of concept d'un workflow contenu 100% AI-assisted
+
+---
+
 ### 💹 Trading & Finance
 
 #### TradingSyncer
-- **Date** : Avril 2024
+- **Date** : Avril 2025
 - **Temps de création** : 1ère version en 3 semaines, puis 5-6 mois maintenance continue
 - **Technologies** : Extension Chrome (vanilla JS), Backend PHP OOP, WebSocket (Workerman PHP + Redis), Expert Advisors MT4/MT5
 - **Objectif** : Pont temps réel entre TradingView et MetaTrader 4/5
@@ -237,7 +287,7 @@ node scripts/db-cli.js get-dashboard  # État complet
 **Lien Renaissance** : Hub Trading de l'écosystème, projet phare technique
 
 #### Coach Trader Module
-- **Date** : Septembre 2024
+- **Date** : Septembre 2025
 - **Technologies** : Python/JS, API IA (ChatGPT), API text-to-speech, automation (Make/Zapier)
 - **Objectif** : Assistant coach pour guider le trader via analyse automatisée du journal
 - **État** : Complet, prêt à brancher sur TradingSyncer
@@ -265,8 +315,8 @@ node scripts/db-cli.js get-dashboard  # État complet
 ### 🌟 Vision Unificatrice
 
 #### Renaissance (Plateforme de Transformation Holistique)
-- **Date vision initiale** : Avril/Mai 2024 (vision avant sommeil, mental silencieux)
-- **Date Pipeline** : Août 2024
+- **Date vision initiale** : Avril/Mai 2025 (vision avant sommeil, mental silencieux)
+- **Date Pipeline** : Août 2025
 - **Technologies** : Écosystème complet (tous les projets ci-dessus)
 - **Objectif** : Netflix de la transformation holistique - L'IA qui DEVIENT toi
 - **État** : Vision complète, somme de toutes les briques existantes, non encore créée en tant que plateforme unifiée
@@ -336,8 +386,8 @@ node scripts/db-cli.js get-dashboard  # État complet
 
 **Lien Renaissance** : C'est Renaissance — le projet méta qui unifie tous les autres
 
-#### Pipeline Renaissance (Août 2024)
-- **Date** : Août 2024
+#### Pipeline Renaissance (Août 2025)
+- **Date** : Août 2025
 - **Version** : 2.0 "Living System Validated"
 - **Objectif** : Transformer l'intuition en empire par un système fractal et incarné
 - **État** : Prêt au déploiement opérationnel
@@ -408,35 +458,36 @@ Rituel quotidien intensif (6 mois) :
 
 **Résultat** : État post-rituel stable, clarity mentale, capacité de vision spontanée
 
-### Février 2024 (notation calendrier : Février 2025 dans doc source)
+### Février 2025
 - **Focus Flow** (15 min)
 - **DPL** (10 min)
 - **PDSTI** (10 min)
 - **Why** (10 min)
 - **3 Textes Spontanés** (2-3 min chacun)
 
-### Avril 2024
+### Avril 2025
 - **TradingSyncer** (3 semaines version initiale)
 
-### Avril/Mai 2024
+### Avril/Mai 2025
 - **Vision Renaissance** (insight avant sommeil)
 
-### Juillet 2024
+### Juillet 2025
 - **Prompt Master** (2 semaines introspection IA)
 - **Incubateur Systémique** (3-4 jours)
 - **Framework JS** (3-4 jours)
 
-### Août 2024
+### Août 2025
 - **Vision Pipeline Renaissance** (stratégie marketing visualisée d'un coup)
 
-### Septembre 2024
+### Septembre 2025
 - **Coach Trader Module** (quelques jours)
 
-### Décembre 2024
+### Décembre 2025
 - **Content AI Generator** (vision/insight)
 
 ### Février 2026
 - **Lyd Framework** (< 24h pour v1.0.0 stable — orchestrateur AI-natif)
+- **YouTube Factory** (1 session — vision → dashboard complet production vidéo AI-assistée)
 
 ---
 
@@ -483,18 +534,18 @@ Tous les projets partagent :
 - **Méthode propriétaire** : Frameworks créés de zéro, pas copie existant
 
 ### État actuel (Février 2026)
-- **13 projets créés** (12 projets + Content AI Generator en vision)
-- **2 en production active** : TradingSyncer (90%, utilisateurs actifs) + Lyd Framework (v1.0.0 stable, déployé globalement)
+- **14 projets créés** (13 projets + Content AI Generator en vision)
+- **3 en production active** : TradingSyncer (90%, utilisateurs actifs) + Lyd Framework (v1.0.0 stable, déployé globalement) + YouTube Factory (dashboard production vidéo opérationnel)
 - **Frameworks opérationnels** : Focus Flow, DPL, PDSTI, Why, Prompt Master, Incubateur, Lyd
 - **Vision unifiée** : Renaissance + Pipeline = système complet prêt déploiement
-- **Innovation récente** : Lyd (orchestrateur AI-natif) = méta-framework qui pourrait générer Renaissance lui-même
+- **Innovation récente** : Lyd (orchestrateur AI-natif) = méta-framework + YouTube Factory = proof of concept "Organe Video Generation"
 - **Prochaine étape** : Lancement opérationnel pipeline avec TradingSyncer comme proof of concept
 
 ---
 
 ## Synthèse
 
-**13 projets sur 2 ans** (Février 2024 - Février 2026), créés dans une période de transformation personnelle intense. Chaque projet est une brique autonome ET une partie d'un écosystème cohérent (Renaissance).
+**14 projets sur 1 an** (Février 2025 - Février 2026), créés dans une période de transformation personnelle intense. Chaque projet est une brique autonome ET une partie d'un écosystème cohérent (Renaissance).
 
 **Pattern dominant** : Vision spontanée → Matérialisation IA → Build rapide → Test personnel → Amélioration continue.
 
